@@ -1,0 +1,26 @@
+body::before {
+  display: block;
+  content: "";
+  height: 70px;
+}
+.my-ico {
+  height: 200px;
+}
+.my-img {
+  height: 600px;
+}
+.img-r {
+  height: 400px;
+  border-radius: 50%;
+}
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .my-input {
+    width: 50%;
+  }
+}
